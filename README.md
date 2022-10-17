@@ -15,7 +15,7 @@ This was created to make practice my knowle about npm and about how to create pa
 
 ## Setup
 ### Install
-`npm install -g cities-of-colombia-by-department`
+`npm install -g @butchbet/cities-of-colombia-by-department`
 
 ### Run
 `cities-of-colombia-by-department`: to  get cities of a random department.

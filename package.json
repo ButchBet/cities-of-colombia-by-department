@@ -4,7 +4,7 @@
   },
   "name": "@butchbet/cities-of-colombia-by-department",
   "description": "This is a package that will let you get the cities of colombia using a department name as paramenter",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "index.js",
   "bin": {
     "cities-of-colombia-by-department": "bin/global.js"
