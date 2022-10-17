@@ -24,7 +24,7 @@ const departmentsOfColombia = {
     'putumayo': ['Colón', 'Mocoa', 'Orito', 'Puerto Asís', 'Puerto Caicedo', 'Puerto Guzmán', 'Puerto Leguízamo', 'San Francisco', 'San Miguel', 'Santiago', 'Sibundoy', 'Valle del Guamuez', 'Villagarzón'],
     'quindio': ['Armenia', 'Buenavista', 'Calarcá', 'Circasia', 'Córdoba', 'Filandia', 'Génova', 'La Tebaida', 'Montenegro', 'Pijao', 'Quimbaya', 'Salento'],
     'risaralda': ['Apía', 'Balboa', 'Belén de Umbría', 'Dosquebradas', 'Guática', 'La Celia', 'La Virginia', 'Marsella', 'Mistrató', 'Pereira', 'Pueblo Rico', 'Quinchía', 'Santa Rosa de Cabal', 'Santuario'],
-    'san andrés y providencia': ['San Andrés', 'Providencia'],
+    'san andres y providencia': ['San Andrés', 'Providencia'],
     'santander': ['Aguada', 'Albania', 'Aratoca', 'Barbosa', 'Barichara', 'Barrancabermeja', 'Betulia', 'Bolívar', 'Bucaramanga', 'Cabrera', 'California', 'Capitanejo', 'Carcasí', 'Cepitá', 'Cerrito', 'Charalá', 'Charta', 'Chima', 'Chipatá', 'Cimitarra', 'Concepción', 'Confines', 'Contratación', 'Coromoro', 'Curití', 'El Carmen de Chucurí', 'El Guacamayo', 'El Peñón', 'El Playón', 'Encino', 'Enciso', 'Florián', 'Floridablanca', 'Galán', 'Gámbita', 'Girón', 'Guaca', 'Guadalupe', 'Guapotá', 'Guavatá', 'Güepsa', 'Hato', 'Jesús María', 'Jordán', 'La Belleza', 'La Paz', 'Landázuri', 'Lebrija', 'Los Santos', 'Macaravita', 'Málaga', 'Matanza', 'Mogotes', 'Molagavita', 'Ocamonte', 'Oiba', 'Onzaga', 'Palmar', 'Palmas del Socorro', 'Páramo', 'Piedecuesta', 'Pinchote', 'Puente Nacional', 'Puerto Parra', 'Puerto Wilches', 'Rionegro', 'Sabana de Torres', 'San Andrés', 'San Benito', 'San Gil', 'San Joaquín', 'San José de Miranda', 'San Miguel', 'San Vicente de Chucurí', 'Santa Bárbara', 'Santa Helena del Opón', 'Simacota', 'Socorro', 'Suaita', 'Sucre', 'Suratá', 'Tona', 'Valle de San José', 'Vélez', 'Vetas', 'Villanueva', 'Zapatoca'],
     'sucre': ['Buenavista', 'Caimito', 'Chalán', 'Colosó', 'Corozal', 'Coveñas', 'El Roble', 'Galeras', 'Guaranda', 'La Unión', 'Los Palmitos', 'Majagual', 'Morroa', 'Ovejas', 'Palmito', 'Sampués', 'San Benito Abad', 'San Juan de Betulia', 'San Marcos', 'San Onofre', 'San Pedro', 'Santiago de Tol',  'Sincé', 'Sincelejo', 'Sucre', 'Toluviejo'],
     'tolima': ['Alvarado', 'Anzoátegui', 'Cajamarca', 'Coello', 'Espinal', 'Flandes', 'Ibagué', 'Piedras', 'Rovira', 'San Luis', 'Valle de San Juan', 'Casabianca', 'Herveo', 'Lérida', 'Líbano', 'Murillo', 'Santa Isabel', 'Venadillo', 'Villahermosa', 'Ambalema', 'Armero', 'Falan', 'Fresno', 'Honda', 'Mariquita', 'Palocabildo', 'Carmen de Apicalá', 'Cunday', 'Icononzo', 'Melgar', 'Villarrica', 'Ataco', 'Chaparral', 'Coyaima', 'Natagaima', 'Ortega', 'Planadas', 'Rioblanco', 'Roncesvalles', 'San Antonio', 'Alpujarra', 'Dolores', 'Guamo', 'Prado', 'Purificación', 'Saldaña', 'Suárez'],
@@ -33,3 +33,6 @@ const departmentsOfColombia = {
     'vichada': ['Cumaribo','La Primavera','Puerto Carreño','Santa Rosalía']
 }
 
+export default function returnDepartments() {
+    return departmentsOfColombia;
+}
