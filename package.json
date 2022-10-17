@@ -17,7 +17,7 @@
     "type": "git",
     "url": "git+https://github.com/ButchBet/cities-of-colombia-by-department.git"
   },
-  "keywords": [],
+  "keywords": ["Colombia", "Cities of Colobmia", "Cities of Colombia by department", "Department"],
   "author": "butchbet",
   "license": "MIT",
   "bugs": {
